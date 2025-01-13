@@ -44,6 +44,10 @@ This project aims to address these challenges by:
 
 ## How It Works
 
+
+![Infrastructure Flow Diagram](https://github.com/monikavaddineni/monikavaddineni-Real-Time-Budget-Tracking-System-for-Local-Governments/blob/main/Infra_Deployment_Diagram.png?raw=true)
+
+
 ### Data Ingestion
 - **Real-Time Data:** Streaming data pipelines built using **Apache Kafka** or **Azure Event Hubs**.
 - **Batch Processing:** Scheduled ingestion using **Azure Data Factory** or **AWS Data Pipeline**.
