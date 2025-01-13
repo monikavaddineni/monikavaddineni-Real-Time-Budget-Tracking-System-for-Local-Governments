@@ -1,0 +1,20 @@
+Project Structure:
+
+lakehouse-ingestion-project/
+├── src/
+│   ├── ingestion/
+│   │   ├─- data_ingestion.py
+│   │   └── s3_reader.py
+│   ├── transformation/
+│   │   ├── data_cleaning.py
+│   │   └── data_aggregation.py
+│   └── reporting/
+│       └── reporting_service.py
+├── config/
+│   └── config.yaml
+├── infrastructure/
+│   └── terraform/
+│       ├── main.tf
+│       └── variables.tf
+
+
